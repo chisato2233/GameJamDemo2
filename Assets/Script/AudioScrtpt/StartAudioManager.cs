@@ -7,8 +7,7 @@ namespace Assets.Script {
         public AudioPlayer BackGroundPlayer;
 
         void Start() {
-
-            BackGroundPlayer.Play("Ambient 1");
+            BackGroundPlayer.PlayInfoLoop("m_sys_title_intro", "m_sys_title_loop");
         }
     }
 

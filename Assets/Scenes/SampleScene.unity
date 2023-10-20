@@ -485,6 +485,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1394806190}
     m_Modifications:
+    - target: {fileID: 5664622142834770931, guid: 5daf6fa06043a3f4faa410113b1cf69e, type: 3}
+      propertyPath: ClipList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664622142834770931, guid: 5daf6fa06043a3f4faa410113b1cf69e, type: 3}
+      propertyPath: ClipList.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a9f2641bb1be164a87a5d91f818d621, type: 3}
+    - target: {fileID: 5664622142834770931, guid: 5daf6fa06043a3f4faa410113b1cf69e, type: 3}
+      propertyPath: ClipList.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: ecfe525942d7df74e8678fb9494ac596, type: 3}
+    - target: {fileID: 5664622142834770931, guid: 5daf6fa06043a3f4faa410113b1cf69e, type: 3}
+      propertyPath: ClipList.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6809064371541657364, guid: 5daf6fa06043a3f4faa410113b1cf69e, type: 3}
       propertyPath: m_Name
       value: BackGroundPlayer

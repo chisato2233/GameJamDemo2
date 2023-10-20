@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MusicSlidControl : MonoBehaviour {
     public Slider Slider { get; private set; }
     public AudioPlayer Player;
