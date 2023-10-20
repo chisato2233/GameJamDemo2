@@ -7,9 +7,9 @@ using UnityEngine.UIElements;
 public class Singleton<T> : MonoBehaviour where T : Singleton<T> {
 
     void Awake() {
-        if (Instance != null) {
+        if (Instance == null) {
             Instance = FindObjectOfType<T>();
-            if (Instance != null) {
+            if (Instance == null) {
                 GameObject singletonObject = new GameObject("MySingleton");
                 Instance = singletonObject.AddComponent<T>();
             }

@@ -27,7 +27,12 @@ public class AudioPlayer : MonoBehaviour {
             Debug.LogError($"Do not find {_name}");
         }
     }
-    
+
+    public void Stop() {
+        Source.Stop();
+    }
+
+
     private Dictionary<string, AudioClip> _clips;
 
 }
